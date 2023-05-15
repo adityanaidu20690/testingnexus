@@ -49,12 +49,12 @@
     <repository>
         <id>addydevops</id>
         <name>release softx</name>
-        <url>http://52.87.143.87:8081/repository/addy-release/</url>
+        <url>http://44.203.98.87:8081/repository/addy-release/</url>
     </repository>
     <snapshotRepository>
         <id>addydevops</id>
         <name>snapshot softx</name>
-        <url>http://52.87.143.87:8081/repository/addy-snapshot/</url>
+        <url>http://44.203.98.87:8081/repository/addy-snapshot/</url>
     </snapshotRepository>
 </distributionManagement>
 </project>
