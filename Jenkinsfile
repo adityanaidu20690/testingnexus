@@ -24,5 +24,13 @@ pipeline {
   -Dsonar.token=sqp_e34fd86302a8e786b71cffaf435f5a36f7c34265'''
             }
   }
+    stage('sast owasp') {
+            steps {
+              dependencyCheck additionalArguments: '''--project=test
+--scan="/var/lib/jenkins/workspace/test"
+--format="HTML"''', odcInstallation: 'default'
+            }
+        }
+
 }
 }
